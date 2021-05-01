@@ -1,0 +1,23 @@
+digraph G {
+	rankdir=LR
+	color=black
+	node [color=lightgrey fontsize=22 style=filled]
+	i
+	p
+	q
+	f [color=yellow shape=doublecircle style=filled]
+	i -> p [label="λ, λ; #   " fontsize=17]
+	p -> q [label="λ, λ; S" fontsize=17]
+	q -> q [label="λ, S; A
+λ, A; aAa
+λ, A; B
+λ, B; bBb
+λ, B; C
+λ, C; z
+
+a, a; λ
+b, b; λ
+z, z; λ
+" fontsize=17]
+	q -> f [label="λ, #; λ   " fontsize=17]
+}

@@ -1,0 +1,24 @@
+Grm1
+S,A,B,C;a,b,z;S
+S->A
+A->a A a
+A->B
+B->b B b
+B->C
+C->z
+*
+Grm2
+S,A;a,b,x;S
+S->aAbb
+A->aAbb
+A->x
+*
+Test1
+S,M,N,K;a,b,x,z;S
+S -> K 
+K -> xMNz
+M -> aMa
+M -> z
+N -> bNb
+N -> z
+*
